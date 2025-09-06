@@ -31,6 +31,7 @@ from upstox_client.api.trade_profit_and_loss_api import TradeProfitAndLossApi
 from upstox_client.api.user_api import UserApi
 from upstox_client.api.websocket_api import WebsocketApi
 from upstox_client.api.order_controller_v_3_api import OrderApiV3
+from upstox_client.historical_client import HistoricalDataClient
 # import websocket interfaces into sdk package
 from upstox_client.feeder.market_data_streamer import MarketDataStreamer
 from upstox_client.feeder.market_data_streamer_v3 import MarketDataStreamerV3
